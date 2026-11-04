@@ -8,7 +8,7 @@
   --acc-d:#5F1520;
   --acc-l:#F3E7E8;
   --hh:72px;
-  --serif:"Bodoni Moda",Didot,"Times New Roman",serif;
+  --serif:"Newsreader",Georgia,"Times New Roman",serif;
   --sans:"Instrument Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
 }
 *,*::before,*::after{box-sizing:border-box}
@@ -219,8 +219,3 @@ svg{flex:none}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 
-/* czytelność Bodoni: grubsze włoskowe kreski w mniejszych nagłówkach */
-.sec h2,.city-txt h2{font-variation-settings:"opsz" 40}
-.apt h3,.apt-s h3{font-variation-settings:"opsz" 20}
-.amen-list dt{font-variation-settings:"opsz" 12}
-.hero h1{font-variation-settings:"opsz" 60}
